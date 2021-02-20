@@ -1,0 +1,52 @@
+@import url(./header.css);
+@import url(./footer.css);
+@import url(./fonts.css);
+.one {
+  padding: 10px;
+  font-size: 30px;
+  height: 50px;
+  background-color: #99bf39;
+  text-align: center;
+}
+.btn-1 {
+  background-color: #99bf39;
+  padding: 4px 5px 5px 5px;
+  text-decoration: none;
+  color: white;
+  transition: 0.5s;
+}
+.btn-1:hover {
+  text-decoration: none;
+  color: white;
+  background-color: black;
+  transition: 0.5s;
+}
+h2 {
+  font-family: "WorkSans Bold";
+  text-align: left;
+  font-size: 45px;
+  color: #95cf4a;
+  padding: 15px 0 15px 0;
+}
+span {
+  padding: 10px;
+  color: yellowgreen;
+  font-size: 16px;
+}
+p {
+  font-family: "WorkSans Regular";
+  font-size: 16px;
+}
+.list a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.481);
+}
+.list a:hover{
+    text-decoration: none;
+    color: yellowgreen;
+}
+@media screen and (max-width:1200px){
+  .about_us_content img{
+    display: none;
+}
+}

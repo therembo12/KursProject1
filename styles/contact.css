@@ -1,0 +1,50 @@
+@import url(./header.css);
+@import url(./footer.css);
+@import url(./fonts.css);
+.fa-envelope-square {
+  font-size: 35px;
+  padding-right: 5px;
+}
+.fa-map-marker-alt {
+  font-size: 35px;
+  padding-right: 5px;
+}
+.fa-phone {
+  font-size: 35px;
+  padding-right: 15px;
+  padding-top: 5px;
+}
+main a {
+  text-decoration: none;
+  color: black;
+}
+main a:hover {
+  text-decoration: none;
+  color: greenyellow;
+}
+h2 {
+  font-family: "WorkSans Bold";
+  text-align: left;
+  font-size: 45px;
+  color: #95cf4a;
+  padding: 15px 0 15px 0;
+}
+.btn-1 {
+  background-color: #99bf39;
+  padding: 4px 5px 5px 5px;
+  text-decoration: none;
+  color: white;
+  transition: 0.5s;
+  border-radius: 5px;
+  margin-top: 5px;
+  text-align: center;
+}
+.btn-1:hover {
+  text-decoration: none;
+  color: white;
+  background-color: black;
+  transition: 0.5s;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+

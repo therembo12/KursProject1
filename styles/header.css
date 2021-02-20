@@ -1,0 +1,97 @@
+/* Header Start */
+.slider{
+    background-color: rgba(196, 184, 184, 0.815);
+}
+.fa-phone{
+    font-size: 35px;
+    padding-right: 15px;
+    padding-top: 5px;
+}
+
+.slider p{
+    margin: 0;
+    font-family: "WorkSans Regular";
+    font-size: 22px;
+    line-height: 1;
+    margin-bottom: 0;
+    text-decoration: none;
+    color: black;
+}
+.slider a{
+    font-family: "WorkSans Regular";
+    font-size: 22px;
+    line-height: 1;
+    margin-bottom: 0;
+    text-decoration: none;
+    color: black;
+}
+.slider i:hover{
+    color: white;
+}
+.slider a:hover{
+    color: rgb(182, 221, 105);
+    text-decoration: none;
+
+}
+.slider_content h5{
+    font-family: "WorkSans Regular";
+    font-size: 24px;
+    line-height: 1;
+    margin-bottom: 0;
+    text-decoration: none;
+    color: black;
+}
+.fa-map-marker-alt{
+    font-size: 35px;
+    padding-right: 5px;
+}
+.fa-instagram{
+    font-size: 35px;
+}
+/* HEader END */
+/* Nav-bar START */
+.nav_bar_bg {
+    background-color :#3E454C;
+}
+.nav_bar{
+    padding: 10px;
+    margin-top: 10px;
+    list-style-type: none;
+    transition: 1s;
+    height: 100px;
+}
+.nav_bar li:hover{
+    list-style-type: none;
+    background-color: greenyellow;
+    transition: 1s;
+    color: black;
+    border-radius: 5px;
+    padding: 10px;
+}
+.nav_bar a{
+    font-family: "WorkSans Regular";
+    font-size: 24px;
+    line-height: 1;
+    margin-bottom: 0;
+    text-decoration: none;
+    color: white;
+    transition: 1s;
+}
+.nav_bar a:hover{
+    text-decoration: none;
+    color: black;
+}
+.nav_bar a:active{
+    text-decoration: none;
+    color: yellowgreen;
+}
+
+/* Nav-Bar END */
+@media screen and (max-width: 990px){
+    .numbers a {
+     display: none;
+   }
+   .slider_content p:nth-of-type(n+1){
+     display: none;
+   }
+ }

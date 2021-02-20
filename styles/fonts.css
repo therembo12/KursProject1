@@ -1,0 +1,8 @@
+@font-face {
+    font-family: "WorkSans Regular";
+    src: url(../fonts/WorkSans-Regular.woff) format("woff");
+}
+@font-face {
+    font-family: "WorkSans Bold";
+    src: url(../fonts/WorkSans-Bold.woff) format("woff");
+}

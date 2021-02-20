@@ -1,0 +1,56 @@
+@import url(./header.css);
+@import url(./footer.css);
+@import url(./fonts.css);
+/* Main_content */
+.services_content{
+    margin-top: 100px;
+}
+.interesting_info{
+    padding-top: 10px;
+    margin-top: 60px;
+    text-align: left;
+}
+.interesting_info h4{
+    color: #95cf4a;
+
+}
+.interesting_info span{
+    margin-top: 10px;
+    color: rgba(0, 0, 0, 0.309);
+}
+.interesting_info p{
+    margin-top: 20px;
+    color: rgba(0, 0, 0, 0.679);
+    font-size: 16px;
+    text-align: left;
+}
+h2 {
+    font-family: "WorkSans Bold";
+    text-align: left;
+    font-size: 45px;
+    color: #95cf4a;
+    padding: 15px 0 15px 0;
+}
+.services_content ul li a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.481);
+}
+.services_content ul li a:hover{
+    text-decoration: none;
+    color: yellowgreen;
+}
+.main_content a{
+    color: black;
+    text-decoration: none;
+
+}
+.main_content a:hover{
+    color: yellowgreen;
+    text-decoration: none;
+
+}
+.main_content p{
+    color: rgba(0, 0, 0, 0.303);
+    font-size: 16px;
+}
+
